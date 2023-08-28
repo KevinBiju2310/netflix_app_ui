@@ -7,7 +7,13 @@ import 'package:netflix_app/presentation/widgets/appbarwidget.dart';
 class DownloadsPage extends StatelessWidget {
   const DownloadsPage({super.key});
 
-  final widgetList = const [kheight,SmartDownloads(), kheight, Section2(), Section3()];
+  final widgetList = const [
+    kheight,
+    SmartDownloads(),
+    kheight,
+    Section2(),
+    Section3()
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -139,7 +145,6 @@ class SmartDownloads extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Row(
       children: [
-        
         kwidth,
         Icon(
           Icons.settings,

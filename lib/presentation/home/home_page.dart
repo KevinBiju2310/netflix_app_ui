@@ -21,9 +21,9 @@ class HomePage extends StatelessWidget {
                   final ScrollDirection direction = notification.direction;
                   print(direction);
                   if (direction == ScrollDirection.reverse) {
-                    scrollNotifier.value == false;
+                    scrollNotifier.value = false;
                   } else if (direction == ScrollDirection.forward) {
-                    scrollNotifier.value == true;
+                    scrollNotifier.value = true;
                   }
                   return true;
                 },
