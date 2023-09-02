@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:netflix_app/presentation/core/constants.dart';
-import 'package:netflix_app/presentation/search/search_null.dart';
 import 'package:netflix_app/presentation/search/search_result.dart';
 
 class SearchPage extends StatelessWidget {
