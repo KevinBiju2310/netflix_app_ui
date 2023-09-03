@@ -9,7 +9,7 @@ part 'downloads_bloc.freezed.dart';
 class DownloadsBloc extends Bloc<DownloadsEvent, DownloadsState> {
   DownloadsBloc() : super(DownloadsInitial()) {
     on<DownloadsEvent>((event, emit) {
-      // TODO: implement event handler
+      // TODO: Softkey has to improve
     });
   }
 }
