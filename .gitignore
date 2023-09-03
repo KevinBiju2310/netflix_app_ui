@@ -46,4 +46,4 @@ app.*.map.json
 
 # ignore files
 
-lib\mainpage\bottom_bar.dart
+lib\infrastructure\api_key.dart
