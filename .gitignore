@@ -45,5 +45,4 @@ app.*.map.json
 
 
 # ignore files
-
 lib\infrastructure\api_key.dart
