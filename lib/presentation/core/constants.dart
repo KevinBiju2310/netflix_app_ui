@@ -16,3 +16,4 @@ const imageurl1 = "https://www.themoviedb.org/t/p/w220_and_h330_face/w46Vw536HwN
 
 TextStyle kHometitle = const TextStyle(fontSize: 14, fontWeight: FontWeight.bold);
 
+const imageAppendUrl = "https://image.tmdb.org/t/p/w500";
